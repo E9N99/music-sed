@@ -25,7 +25,7 @@ from sedthon.Modules import ALL_MODULES
 async def fallen_startup():
     LOGGER.info("[•] Loading Modules...")
     for module in ALL_MODULES:
-        importlib.import_module("music-sed.Modules." + module)
+        importlib.import_module("sedthon.Modules." + module)
     LOGGER.info(f"[•] Loaded {len(ALL_MODULES)} Modules.")
 
     LOGGER.info("[•] Refreshing Directories...")
