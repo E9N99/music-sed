@@ -1,5 +1,5 @@
 
-from music-sed import BOT_NAME
+from sedthon import BOT_NAME
 
 PM_START_TEXT = """**
 ◈ اهلين عمري في بوت ميوزك التابع لسورس سيدثون ♪
@@ -10,7 +10,7 @@ PM_START_TEXT = """**
 """
 
 START_TEXT = """
-**- [𓏺𝙎𝙊𝙐𝙍𝘾𝙀 𝐒𝐇𝐀𝐇𝐌](t.me/E9N99)
+**- [𓏺𝙎𝙊𝙐𝙍𝘾𝙀 𝗦𝞝𝗗𝙏𝙃𝙊𝙉](t.me/E9N99)
 —————————————
 - [𝙗𝙤𝙩 𝙘𝙝𝙖𝙩 𝙢𝙚𝙧𝙤 ](t.me/NUNUU)
 
