@@ -6,7 +6,7 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
 from config import OWNER_ID
-from ShahmMusic import ASS_MENTION, SUNAME, app, app2
+from sedthon import ASS_MENTION, SUNAME, app, app2
 
 
 @app.on_message(filters.command(["leaveall", "assleaveall"]) | filters.command(["مغادره","مغادرة","مغادره المكالمات","مغادرة المكالمات","غادر","اطلع"],prefixes= ["/", "!","","#"]) & filters.user(OWNER_ID))
