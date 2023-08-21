@@ -1,5 +1,5 @@
 
-from ShahmMusic import Shahmdb
+from music-sed import blald
 
 
 async def put(
@@ -19,9 +19,9 @@ async def put(
         "req": ruser,
         "user_id": user_id,
     }
-    get = Shahmdb.get(chat_id)
+    get = blald.get(chat_id)
     if get:
-        Shahmdb[chat_id].append(put_f)
+        blald[chat_id].append(put_f)
     else:
-        Shahmdb[chat_id] = []
-        Shahmdb[chat_id].append(put_f)
+        blald[chat_id] = []
+        blald[chat_id].append(put_f)
