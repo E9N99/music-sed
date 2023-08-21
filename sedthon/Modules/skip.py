@@ -3,8 +3,8 @@ from pyrogram import filters
 from pyrogram.types import Message
 from pytgcalls.types import AudioPiped, HighQualityAudio
 
-from ShahmMusic import BOT_USERNAME, app, Shahmdb, pytgcalls
-from ShahmMusic.Helpers import _clear_, admin_check, buttons, close_key, gen_thumb
+from sedthon import BOT_USERNAME, app, Shahmdb, pytgcalls
+from sedthon.Helpers import _clear_, admin_check, buttons, close_key, gen_thumb
 
 
 @app.on_message(filters.command(["skip", "next"]) | filters.command(["تخطي","سكيب","سكب"],prefixes= ["/", "!","","#"]) & filters.group)
