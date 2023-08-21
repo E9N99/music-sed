@@ -11,8 +11,8 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
-from music-sed import BOT_NAME, SUDOERS, app
-from music-sed.Modules import ALL_MODULES
+from sedthon import BOT_NAME, SUDOERS, app
+from sedthon.Modules import ALL_MODULES
 
 
 @app.on_message(filters.command(["stats", "sysstats"]) | filters.command(["الحاله","الاحصائيات"],prefixes= ["/", "!","","#"]) & SUDOERS)
