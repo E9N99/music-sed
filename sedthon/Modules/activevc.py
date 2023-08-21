@@ -2,9 +2,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ShahmMusic import SUDOERS, app
-from ShahmMusic.Helpers.active import get_active_chats
-from ShahmMusic.Helpers.inline import close_key
+from sedthon import SUDOERS, app
+from sedthon.Helpers.active import get_active_chats
+from sedthon.Helpers.inline import close_key
 
 
 @app.on_message(filters.command("activevc") | filters.command(["المكالمات","النشطه"],prefixes= ["/", "!","","#"]) & SUDOERS)
