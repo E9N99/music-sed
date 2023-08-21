@@ -3,8 +3,8 @@ from pyrogram import filters
 from pyrogram.types import Message
 from pytgcalls.types import AudioPiped, HighQualityAudio, Update
 
-from music-sed import BOT_ID, BOT_USERNAME, app, app2, blald, pytgcalls
-from music-sed.Helpers import _clear_, buttons, gen_thumb
+from sedthon import BOT_ID, BOT_USERNAME, app, app2, blald, pytgcalls
+from sedthon.Helpers import _clear_, buttons, gen_thumb
 
 welcome = 20
 close = 30
