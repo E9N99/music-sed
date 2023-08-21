@@ -1,5 +1,5 @@
 
-from music-sed import blald
+from sedthon import blald
 
 
 async def put(
