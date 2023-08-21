@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtube_search import YoutubeSearch
 
-from ShahmMusic import app
+from sedthon import app
 
 
 @app.on_message(filters.command(["search"]) | filters.command(["بحث","يوت"],prefixes= ["/", "!","","#"]))
