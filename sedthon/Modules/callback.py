@@ -11,7 +11,7 @@ from sedthon import (
     BOT_USERNAME,
     LOGGER,
     app,
-    Shahmdb,
+    blald,
     pytgcalls,
 )
 from sedthon.Helpers import (
