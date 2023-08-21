@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
 from pytgcalls.types import AudioPiped, HighQualityAudio
 
-from ShahmMusic import (
+from sedthon import (
     ASS_ID,
     ASS_NAME,
     BOT_ID,
@@ -14,7 +14,7 @@ from ShahmMusic import (
     Shahmdb,
     pytgcalls,
 )
-from ShahmMusic.Helpers import (
+from sedthon.Helpers import (
     _clear_,
     admin_check_cb,
     gen_thumb,
@@ -22,8 +22,8 @@ from ShahmMusic.Helpers import (
     stream_off,
     stream_on,
 )
-from ShahmMusic.Helpers.dossier import *
-from ShahmMusic.Helpers.inline import (
+from sedthon.Helpers.dossier import *
+from sedthon.Helpers.inline import (
     buttons,
     close_key,
     help_back,
@@ -110,7 +110,7 @@ async def admin_cbs(_, query: CallbackQuery):
         await query.message.delete()
 
     elif data == "skip_cb":
-        get = Shahmdb.get(query.message.chat.id)
+        get = blald.get(query.message.chat.id)
         if not get:
             try:
                 await _clear_(query.message.chat.id)
