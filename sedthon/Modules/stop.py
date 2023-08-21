@@ -2,8 +2,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ShahmMusic import app, pytgcalls
-from ShahmMusic.Helpers import _clear_, admin_check, close_key
+from sedthon import app, pytgcalls
+from sedthon.Helpers import _clear_, admin_check, close_key
 
 
 @app.on_message(filters.command(["stop", "end"]) | filters.command(["ايقاف","اسكت"],prefixes= ["/", "!","","#"]) & filters.group)
