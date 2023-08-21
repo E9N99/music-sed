@@ -4,7 +4,7 @@ from pyrogram.enums import ChatType
 from pyrogram.types import Message
 
 import config
-from music-sed import BOT_NAME, app
+from sedthon import BOT_NAME, app
 
 
 @app.on_message(
