@@ -19,10 +19,10 @@ logging.basicConfig(
 )
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("pytgcalls").setLevel(logging.ERROR)
-LOGGER = logging.getLogger("ShahmMusic")
+LOGGER = logging.getLogger("sedthon")
 
 app = Client(
-    "ShahmMusic",
+    "sedthon",
     config.API_ID,
     config.API_HASH,
     bot_token=config.BOT_TOKEN,
@@ -71,8 +71,8 @@ async def fallen_startup():
     ASS_USERNAME = getme2.username
     ASS_MENTION = getme2.mention
     try:
-        await app2.join_chat("ql8ql")
-        await app2.join_chat("Shahm_Sport")
+        await app2.join_chat("E9N99")
+        await app2.join_chat("tipthon_help")
     except:
         pass
 
