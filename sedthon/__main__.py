@@ -6,7 +6,7 @@ import os
 
 from pyrogram import idle
 
-from ShahmMusic import (
+from music-sed import (
     ASS_ID,
     ASS_NAME,
     ASS_USERNAME,
@@ -19,13 +19,13 @@ from ShahmMusic import (
     app2,
     pytgcalls,
 )
-from ShahmMusic.Modules import ALL_MODULES
+from music-sed.Modules import ALL_MODULES
 
 
 async def fallen_startup():
     LOGGER.info("[•] Loading Modules...")
     for module in ALL_MODULES:
-        importlib.import_module("ShahmMusic.Modules." + module)
+        importlib.import_module("music-sed.Modules." + module)
     LOGGER.info(f"[•] Loaded {len(ALL_MODULES)} Modules.")
 
     LOGGER.info("[•] Refreshing Directories...")
@@ -38,7 +38,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"✯ بــــوت شهم الجديد ✯\n\n⌔︙ الايدي: `{BOT_ID}`\n⌔︙ الاسم : {BOT_NAME}\n⌔︙ الاسم : @{BOT_USERNAME}",
+            f"✯ بــــوت سيدثون الجديد ✯\n\n⌔︙ الايدي: `{BOT_ID}`\n⌔︙ الاسم : {BOT_NAME}\n⌔︙ الاسم : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -48,7 +48,7 @@ async def fallen_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f"✯ بــــوت شهم الجديد ✯\n\n⌔︙ الايدي: `{ASS_ID}`\n⌔︙ الاسم : {ASS_NAME}\n⌔︙ الاسم : @{ASS_USERNAME}",
+            f"✯ بــــوت سيدثون الجديد ✯\n\n⌔︙ الايدي: `{ASS_ID}`\n⌔︙ الاسم : {ASS_NAME}\n⌔︙ الاسم : @{ASS_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -69,4 +69,4 @@ async def fallen_startup():
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(fallen_startup())
-    LOGGER.error("Shahm Music Bot Stopped.")
+    LOGGER.error("sedthon Music Bot Stopped.")
