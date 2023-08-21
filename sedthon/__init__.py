@@ -6,6 +6,7 @@ import time
 
 from pyrogram import Client, filters
 from pytgcalls import PyTgCalls
+from sedthon import blald
 
 import config
 
