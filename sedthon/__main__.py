@@ -6,7 +6,7 @@ import os
 
 from pyrogram import idle
 
-from music-sed import (
+from sedthon import (
     ASS_ID,
     ASS_NAME,
     ASS_USERNAME,
@@ -19,7 +19,7 @@ from music-sed import (
     app2,
     pytgcalls,
 )
-from music-sed.Modules import ALL_MODULES
+from sedthon.Modules import ALL_MODULES
 
 
 async def fallen_startup():
