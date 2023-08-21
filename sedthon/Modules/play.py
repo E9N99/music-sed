@@ -16,7 +16,7 @@ from pytgcalls.types import AudioPiped, HighQualityAudio
 from youtube_search import YoutubeSearch
 
 from config import DURATION_LIMIT
-from ShahmMusic import (
+from sedthon import (
     ASS_ID,
     ASS_MENTION,
     ASS_NAME,
@@ -29,13 +29,13 @@ from ShahmMusic import (
     Shahmdb,
     pytgcalls,
 )
-from ShahmMusic.Helpers.active import add_active_chat, is_active_chat, stream_on
-from ShahmMusic.Helpers.downloaders import audio_dl
-from ShahmMusic.Helpers.errors import DurationLimitError
-from ShahmMusic.Helpers.gets import get_file_name, get_url
-from ShahmMusic.Helpers.inline import buttons
-from ShahmMusic.Helpers.queue import put
-from ShahmMusic.Helpers.thumbnails import gen_qthumb, gen_thumb
+from sedthon.Helpers.active import add_active_chat, is_active_chat, stream_on
+from sedthon.Helpers.downloaders import audio_dl
+from sedthon.Helpers.errors import DurationLimitError
+from sedthon.Helpers.gets import get_file_name, get_url
+from sedthon.Helpers.inline import buttons
+from sedthon.Helpers.queue import put
+from sedthon.Helpers.thumbnails import gen_qthumb, gen_thumb
 
 
 @app.on_message(
