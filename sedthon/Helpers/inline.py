@@ -2,7 +2,7 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 import config
-from music-sed import BOT_USERNAME
+from sedthon import BOT_USERNAME
 
 close_key = InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="◈ اغلاق ◈", callback_data="close")]]
