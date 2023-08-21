@@ -1,6 +1,6 @@
 
-from music-sed import blald
-from music-sed.Helpers import remove_active_chat
+from sedthon import blald
+from sedthon.Helpers import remove_active_chat
 
 
 async def _clear_(chat_id):
