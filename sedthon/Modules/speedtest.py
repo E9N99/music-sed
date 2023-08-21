@@ -4,7 +4,7 @@ import asyncio
 import speedtest
 from pyrogram import filters
 
-from ShahmMusic import SUDOERS, app
+from sedthon import SUDOERS, app
 
 
 def testspeed(m):
