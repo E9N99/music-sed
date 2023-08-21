@@ -4,7 +4,7 @@ from typing import Callable
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, Message
 
-from music-sed import SUDOERS, app
+from sedthon import SUDOERS, app
 
 from .active import is_active_chat
 
