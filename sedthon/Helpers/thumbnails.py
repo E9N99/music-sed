@@ -10,7 +10,7 @@ from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFo
 from youtubesearchpython.__future__ import VideosSearch
 
 from config import FAILED
-from ShahmMusic import BOT_ID, LOGGER, app
+from music-sed import BOT_ID, LOGGER, app
 
 
 def changeImageSize(maxWidth, maxHeight, image):
@@ -122,10 +122,10 @@ async def gen_thumb(videoid, user_id):
         background.paste(image3, (0, 0), mask=image3)
 
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("ShahmMusic/Helpers/utils/font2.ttf", 45)
-        ImageFont.truetype("ShahmMusic/Helpers/utils/font2.ttf", 70)
-        arial = ImageFont.truetype("ShahmMusic/Helpers/utils/font2.ttf", 30)
-        ImageFont.truetype("ShahmMusic/Helpers/utils/font.ttf", 30)
+        font = ImageFont.truetype("music-sed/Helpers/utils/font2.ttf", 45)
+        ImageFont.truetype("music-sed/Helpers/utils/font2.ttf", 70)
+        arial = ImageFont.truetype("music-sed/Helpers/utils/font2.ttf", 30)
+        ImageFont.truetype("music-sed/Helpers/utils/font.ttf", 30)
         para = textwrap.wrap(title, width=32)
         try:
             draw.text(
@@ -232,7 +232,7 @@ async def gen_qthumb(videoid, user_id):
         x = f.resize((107, 107))
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
-        bg = Image.open(f"ShahmMusic/Helpers/utils/circle.png")
+        bg = Image.open(f"music-sed/Helpers/utils/circle.png")
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(30))
@@ -267,10 +267,10 @@ async def gen_qthumb(videoid, user_id):
         background.paste(image3, (0, 0), mask=image3)
 
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("ShahmMusic/Helpers/utils/font2.ttf", 45)
-        ImageFont.truetype("ShahmMusic/Helpers/utils/font2.ttf", 70)
-        arial = ImageFont.truetype("ShahmMusic/Helpers/utils/font2.ttf", 30)
-        ImageFont.truetype("ShahmMusic/Helpers/utils/font.ttf", 30)
+        font = ImageFont.truetype("music-sed/Helpers/utils/font2.ttf", 45)
+        ImageFont.truetype("music-sed/Helpers/utils/font2.ttf", 70)
+        arial = ImageFont.truetype("music-sed/Helpers/utils/font2.ttf", 30)
+        ImageFont.truetype("music-sed/Helpers/utils/font.ttf", 30)
         para = textwrap.wrap(title, width=32)
         try:
             draw.text(
