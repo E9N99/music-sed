@@ -5,9 +5,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from ShahmMusic import BOT_MENTION, BOT_NAME, app
-from ShahmMusic.Helpers import gp_buttons, pm_buttons
-from ShahmMusic.Helpers.dossier import *
+from Sedthon import BOT_MENTION, BOT_NAME, app
+from Sedthon.Helpers import gp_buttons, pm_buttons
+from Sedthon.Helpers.dossier import *
 
 
 @app.on_message(filters.command(["start"]) | filters.command(["السورس","السورس"],prefixes= ["/", "!","","#"]) & ~filters.forwarded)
