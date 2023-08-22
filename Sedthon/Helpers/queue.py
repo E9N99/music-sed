@@ -1,5 +1,5 @@
 
-from ShahmMusic import Shahmdb
+from Sedthon import Shahmdb
 
 
 async def put(
