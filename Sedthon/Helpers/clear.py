@@ -1,6 +1,6 @@
 
-from ShahmMusic import Shahmdb
-from ShahmMusic.Helpers import remove_active_chat
+from Sedthon import Shahmdb
+from Sedthon.Helpers import remove_active_chat
 
 
 async def _clear_(chat_id):
