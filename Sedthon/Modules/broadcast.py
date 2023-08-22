@@ -6,7 +6,7 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
 from config import OWNER_ID
-from ShahmMusic import app, app2
+from Sedthon import app, app2
 
 
 @app.on_message(filters.command("broadcast") | filters.command(["ذيع","اذاعه","اذاعة"],prefixes= ["/", "!","","#"]) & filters.user(OWNER_ID))
