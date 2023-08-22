@@ -11,7 +11,7 @@ from time import time
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from ShahmMusic import LOGGER, SUDOERS, app
+from Sedthon import LOGGER, SUDOERS, app
 
 
 async def aexec(code, client, message):
