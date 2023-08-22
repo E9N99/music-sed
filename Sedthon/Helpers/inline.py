@@ -2,7 +2,7 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 import config
-from ShahmMusic import BOT_USERNAME
+from Sedthon import BOT_USERNAME
 
 close_key = InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="◈ اغلاق ◈", callback_data="close")]]
@@ -37,7 +37,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="", url="https://t.me/SH_AH_M"
+            text="", url="https://t.me/NUNUU"
         ),
         InlineKeyboardButton(text="◈ مالك البوت ◈", user_id=config.OWNER_ID),
     ],
@@ -57,7 +57,7 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="◈ المطور ◈", url="https://t.me/SH_AH_M"
+            text="◈ المطور ◈", url="https://t.me/NUNUU"
         ),
         InlineKeyboardButton(text="◈ مالك البوت ◈", user_id=config.OWNER_ID),
     ],
