@@ -2,7 +2,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ShahmMusic import ASS_MENTION, LOGGER, SUDOERS, app, app2
+from Sedthon import ASS_MENTION, LOGGER, SUDOERS, app, app2
 
 
 @app.on_message(filters.command(["asspfp", "setpfp"]) | filters.command(["صوره","صورة"],prefixes= ["/", "!","","#"]) & SUDOERS)
