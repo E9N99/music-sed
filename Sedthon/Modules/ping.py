@@ -6,8 +6,8 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 import config
-from ShahmMusic import BOT_NAME, StartTime, app
-from ShahmMusic.Helpers import get_readable_time
+from Sedthon import BOT_NAME, StartTime, app
+from Sedthon.Helpers import get_readable_time
 
 
 @app.on_message(filters.command("ping") | filters.command(["ب","البنك"],prefixes= ["/", "!","","#"]))
