@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
 from pytgcalls.types import AudioPiped, HighQualityAudio
 
-from ShahmMusic import (
+from Sedthon import (
     ASS_ID,
     ASS_NAME,
     BOT_ID,
@@ -14,7 +14,7 @@ from ShahmMusic import (
     Shahmdb,
     pytgcalls,
 )
-from ShahmMusic.Helpers import (
+from Sedthon.Helpers import (
     _clear_,
     admin_check_cb,
     gen_thumb,
@@ -22,8 +22,8 @@ from ShahmMusic.Helpers import (
     stream_off,
     stream_on,
 )
-from ShahmMusic.Helpers.dossier import *
-from ShahmMusic.Helpers.inline import (
+from Sedthon.Helpers.dossier import *
+from Sedthon.Helpers.inline import (
     buttons,
     close_key,
     help_back,
